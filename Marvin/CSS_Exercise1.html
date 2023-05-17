@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercise1</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Style1.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Hello World!</h1>
+        <div class="left" id="first">
+            left first
+            <div class="left" id="third">
+                left third
+                <p>
+                    left third p
+                </p>
+                <span>
+                    left third span 
+                </span>
+            </div>
+            <div class="left" id="fourth">
+                left fourth
+                <ul>
+                    <li>left fourth li1</li>
+                    <li>left fourth li2</li>
+                    <li>left fourth li3</li>
+                </ul>
+                <span>
+                    left fourth span
+                </span>
+            </div>
+        </div>
+        <div class="right" id="second">
+            right second
+            <div class="right" id="fifth">
+                right fifth
+                <p>
+                    right fifth p<br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, perferendis.
+                </p>
+            </div>
+            <div class="right" id="sixth">
+                right sixth <br>
+                <img src="Images/Ziege.jpg" alt="Ziege.jpg">
+                <form>
+                    <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+                </form>
+            </div>
+        </div>
+    </div>
+    <form>
+        <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+        <input type="button"  value="Click me" onclick="doSmth()">
+    </form>
+    <hr>
+    <h1>Warm Up Questions</h1>
+    Discuss with your partner how the DOM is created and displayed on your screen.
+    <hr>
+    What are the best CSS creation practices?
+    <p>make an external css file and conect it with the html files</p>
+    What is specificity and how can you use it to select the elements you want?
+    <p>with class or id</p>
+    What types of CSS selectors exist, can you name examples?
+    <p>class, id, tags</p>
+    How can we apply CSS code to a HTML page?
+    <p>Link the css file in the head</p>
+    <p>example: 
+        (link rel="stylesheet" type="text/css" href="CSS/Style1.css")</p>
+</body>
+</html>

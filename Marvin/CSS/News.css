@@ -1,0 +1,21 @@
+article{
+    background-color: lightgray;
+    border : 5px solid black;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.newsHeader{
+    text-align: center;
+    font-size: xx-large;
+}
+.picture{
+    width: 300px;
+    height: 300px;
+}
+.author{
+    text-align: center;
+}
+footer{
+    font-size: xx-small;
+    text-align: end;
+}

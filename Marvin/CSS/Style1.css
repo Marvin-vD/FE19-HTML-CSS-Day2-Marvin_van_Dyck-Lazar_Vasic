@@ -1,0 +1,14 @@
+div{
+    margin: 5px;
+}
+h1{color: blue;}
+#third > span{visibility: hidden;}
+/*.right p {display: none;}*/
+img{
+    width: 300px;
+    height: 300px;
+}
+#third p {
+    background-color:green;
+}
+p{color: red;}
