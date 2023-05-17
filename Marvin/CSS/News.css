@@ -19,3 +19,8 @@ footer{
     font-size: xx-small;
     text-align: end;
 }
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
